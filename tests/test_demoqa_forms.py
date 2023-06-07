@@ -3,7 +3,7 @@ from selene import be, have
 from faker import Faker
 fake_data = Faker("ru_RU")
 
-def test_demoqa():
+def test_demoqa_forms():
     browser.open('https://demoqa.com/automation-practice-form')
     browser.element('[id="firstName"]').should(be.visible).type(fake_data.first_name())
     browser.element('[id="lastName').should(be.visible).type(fake_data.last_name())
