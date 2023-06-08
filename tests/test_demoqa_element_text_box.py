@@ -1,5 +1,4 @@
 from selene.support.shared import browser
-from selene import be, have
 from faker import Faker
 fake_data = Faker("ru_RU")
 
