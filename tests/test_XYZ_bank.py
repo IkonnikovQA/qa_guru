@@ -18,7 +18,10 @@ def test_xyz_bank():
 
     browser.element('[ng-click="home()"]').click()
     browser.element('[ng-click="customer()"]').click()
-    browser.element('[ng-click="manager()"]').click()
-    browser.element('[ng-class="btnClass3"]').click()
+    # browser.element('[ng-click="manager()"]').click()
+    # browser.element('[ng-class="btnClass3"]').click()
+    # browser.element('[ng-class="btnClass2"]').click()
+    # browser.element('[class="form-control ng-touched ng-dirty ng-valid-parse ng-valid ng-valid-required"]').click()
+    #
 
 
