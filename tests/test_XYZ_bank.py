@@ -15,3 +15,10 @@ def test_xyz_bank():
     browser.element('[ng-click="deposit()"]').click()
     # browser.element('[class="form-control ng-pristine ng-invalid ng-invalid-required ng-touched"]').send_keys("10000")
     # browser.element('[class="btn btn-default"]').click()
+
+    browser.element('[ng-click="home()"]').click()
+    browser.element('[ng-click="customer()"]').click()
+    browser.element('[ng-click="manager()"]').click()
+    browser.element('[ng-class="btnClass3"]').click()
+
+
