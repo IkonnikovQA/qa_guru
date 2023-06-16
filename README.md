@@ -1,5 +1,2 @@
 # qa_guru
-
-first commit
-
-commit from PyCharm
+more more more tests
